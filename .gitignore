@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Virtual environment
+.env
+.env/
+venv/
+.venv/
+env/
+
+# Django-specific files
+*.log
+*.pot
+db.sqlite3
+media/
+static_collected/  # If you collect static files into a dedicated directory
+
+# IDE-specific files
+.idea/  # PyCharm
+.vscode/ # VSCode
+*.swp   # Vim
+*.swo   # Vim
+*~      # Vim backup files
+.DS_Store # macOS specific
+
+# Local settings
+local_settings.py  # Or whatever you name your local settings file
+
+# Environment variables
+.env  # If you use a .env file for environment variables
